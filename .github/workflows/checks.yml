@@ -8,11 +8,10 @@ jobs:
   checks:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
       - run: python scripts/verify_repository.py
       - run: python -m py_compile scripts/*.py examples/*.py
       - run: bash -n examples/chat_gguf.sh
-
