@@ -1,0 +1,15 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+*.lock
+*.safetensors
+*.gguf
+*.onnx
+models/
+runs/
+checkpoints/
+private-evaluation/
+data/private/
+

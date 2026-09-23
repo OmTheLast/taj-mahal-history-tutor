@@ -1,0 +1,28 @@
+{
+  "model": "models/qwen3-4b-base",
+  "fine_tune_type": "lora",
+  "adapter_path": "runs/taj_recipe_v1/adapters",
+  "data": "data/taj_recipe_v1",
+  "batch_size": 4,
+  "grad_accumulation_steps": 1,
+  "num_layers": 16,
+  "lora_parameters": {
+    "rank": 16,
+    "scale": 32.0,
+    "dropout": 0.0
+  },
+  "optimizer": "adam",
+  "learning_rate": 0.00002,
+  "lr_schedule": null,
+  "epochs": 3,
+  "iters": 375,
+  "max_seq_length": 512,
+  "mask_prompt": true,
+  "loss": "assistant_suffix_only_excluding_padding",
+  "grad_checkpoint": true,
+  "seed": 42,
+  "steps_per_eval": 100,
+  "save_every": 50,
+  "checkpoint_selection": "minimum_validation_loss_among_trained_scheduled_checkpoints"
+}
+

@@ -1,0 +1,5 @@
+mlx==0.29.3
+mlx-lm[train]==0.31.3
+numpy
+transformers
+
