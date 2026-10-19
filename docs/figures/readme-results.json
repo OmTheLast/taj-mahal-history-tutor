@@ -1,0 +1,29 @@
+{
+  "source": "docs/RESULTS.md; published aggregate section scores only, no private questions or model answers",
+  "sections": [
+    {
+      "name": "Multiple choice",
+      "total": 32,
+      "base": 24,
+      "released": 26
+    },
+    {
+      "name": "Short factual",
+      "total": 32,
+      "base": 6,
+      "released": 16
+    },
+    {
+      "name": "Reworded factual",
+      "total": 16,
+      "base": 4,
+      "released": 6
+    },
+    {
+      "name": "Supplied note only",
+      "total": 16,
+      "base": 16,
+      "released": 12
+    }
+  ]
+}

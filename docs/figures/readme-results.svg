@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+<title id="title">Taj pilot: base versus released step100</title>
+<desc id="desc">Section scores on the frozen 96-question pilot. Supplied-note performance regresses.</desc>
+<rect width="960" height="460" fill="#fafaf8"/>
+<g font-family="Arial, sans-serif" fill="#20252b">
+<text x="28" y="36" font-size="23">Taj pilot: gains and regressions</text>
+<text x="28" y="65" font-size="15">Published aggregate scores • common 0–32 scale • base 50/96, released 60/96</text>
+<line x1="230" y1="95" x2="230" y2="385" stroke="#d9dde0"/>
+<text x="230" y="410" text-anchor="middle" font-size="13">0</text>
+<line x1="374" y1="95" x2="374" y2="385" stroke="#d9dde0"/>
+<text x="374" y="410" text-anchor="middle" font-size="13">8</text>
+<line x1="518" y1="95" x2="518" y2="385" stroke="#d9dde0"/>
+<text x="518" y="410" text-anchor="middle" font-size="13">16</text>
+<line x1="662" y1="95" x2="662" y2="385" stroke="#d9dde0"/>
+<text x="662" y="410" text-anchor="middle" font-size="13">24</text>
+<line x1="806" y1="95" x2="806" y2="385" stroke="#d9dde0"/>
+<text x="806" y="410" text-anchor="middle" font-size="13">32</text>
+<text x="28" y="130" font-size="16">Multiple choice</text>
+<rect x="230" y="112" width="432" height="19" fill="#8796a5"/>
+<text x="670" y="127" font-size="14">24/32</text>
+<rect x="230" y="137" width="468" height="19" fill="#176b75"/>
+<text x="706" y="152" font-size="14">26/32</text>
+<text x="28" y="200" font-size="16">Short factual</text>
+<rect x="230" y="182" width="108" height="19" fill="#8796a5"/>
+<text x="346" y="197" font-size="14">6/32</text>
+<rect x="230" y="207" width="288" height="19" fill="#176b75"/>
+<text x="526" y="222" font-size="14">16/32</text>
+<text x="28" y="270" font-size="16">Reworded factual</text>
+<rect x="230" y="252" width="72" height="19" fill="#8796a5"/>
+<text x="310" y="267" font-size="14">4/16</text>
+<rect x="230" y="277" width="108" height="19" fill="#176b75"/>
+<text x="346" y="292" font-size="14">6/16</text>
+<text x="28" y="340" font-size="16">Supplied note only</text>
+<rect x="230" y="322" width="288" height="19" fill="#8796a5"/>
+<text x="526" y="337" font-size="14">16/16</text>
+<rect x="230" y="347" width="216" height="19" fill="#176b75"/>
+<text x="454" y="362" font-size="14">12/16</text>
+<text x="28" y="445" font-size="14">Gray: unchanged base   Teal: released step100   |   Source: docs/RESULTS.md</text>
+</g></svg>
